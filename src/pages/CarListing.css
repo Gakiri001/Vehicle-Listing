@@ -1,0 +1,50 @@
+.parent{
+    background:linear-gradient(rgba(18, 19, 19, 0.4), rgba(18, 19, 19, 0.4)), url(../../src/assets/cars/dashboard.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+.parent .Header h1{
+    text-align: center;
+    color: white;
+}
+
+.parent .parentListing{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.parent .labelFiltering{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    border: white solid 1px;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    margin-right: 20px;
+}
+.parent .labelFiltering label input{
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+.parent .labelFiltering label span{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+.parent .listingpart{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.parent .listingpart img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    object-fit: cover;
+}
